@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="calculator-grid">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="output">
+                        <div id="previous-operand"></div>
+                        <div id="current-operand"></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <button data-all-clear   id="ac">AC</button>
+                </div>
+                <div class="col-3">
+                    <button data-delete style="font-size: 33px;" id="del">DEL</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation  id="power">^</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation  id="divide">/</button>
+                </div>
+                <div class="col-3">
+                    <button data-number id="1">1</button>
+                </div>
+                <div class="col-3">
+                    <button  data-number id="2">2</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="3">3</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation id="multiply">*</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="4">4</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="5">5</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="6">6</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation  id="plus">+</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="7">7</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="8">8</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="9">9</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation  id="minus">-</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="decimal">.</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="0">0</button>
+                </div>
+                <!-- <div class="col-3">
+                    <div class="power" id="^">^</div>
+                </div>
+                <div class="col-3">
+                    <button data-operation id="sqr-root">√</button>
+                </div>
+                <div class="col-3">
+                    <button data-operation id="cubert">3√</button>
+                </div>
+                <div class="col-3">
+                    <button class="data-number" data-number id="hundred">00</button>
+                </div> -->
+                <div class="col-6">
+                    <button data-equals id="equals">=</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<!-- 
+    <svg viewbox=''>
+        path d="L3"
+    </svg> -->
+</body>
+<script src="calculator.js"></script>
+<script src="./assets/js/plugins/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
